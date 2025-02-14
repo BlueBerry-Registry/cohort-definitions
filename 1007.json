@@ -1,0 +1,886 @@
+{
+  "ConceptSets": [
+    {
+      "id": 3,
+      "name": "Blueberry study-a-thon 2 - History of",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Context-dependent",
+              "CONCEPT_CODE": "OMOP5165859",
+              "CONCEPT_ID": 1340204,
+              "CONCEPT_NAME": "History of event",
+              "DOMAIN_ID": "Observation",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "OMOP Extension"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Blueberry study-a-thon 2 - Metastases",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Metastasis",
+              "CONCEPT_CODE": "OMOP4998856",
+              "CONCEPT_ID": 36769180,
+              "CONCEPT_NAME": "Metastasis",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "Cancer Modifier"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Staging/Grading",
+              "CONCEPT_CODE": "AJCC/UICC-M1",
+              "CONCEPT_ID": 1635142,
+              "CONCEPT_NAME": "AJCC/UICC M1 Category",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "Cancer Modifier"
+            },
+            "includeDescendants": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Blueberry study-a-thon 2 - SEER summary stage",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "NAACCR Variable",
+              "CONCEPT_CODE": "759",
+              "CONCEPT_ID": 35918735,
+              "CONCEPT_NAME": "SEER Summary Stage 2000",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "NAACCR"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "other malignancies except BCC and PCC",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "363346000",
+              "CONCEPT_ID": 443392,
+              "CONCEPT_NAME": "Malignant neoplastic disease",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "254701007",
+              "CONCEPT_ID": 4112752,
+              "CONCEPT_NAME": "Basal cell carcinoma of skin",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "isExcluded": true,
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "254651007",
+              "CONCEPT_ID": 4111921,
+              "CONCEPT_NAME": "Squamous cell carcinoma of skin",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "isExcluded": true,
+            "includeDescendants": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Blueberry study-a-thon 2 - RPS - Well differentiated or dedifferentiated v2",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8850/3-C49.5",
+              "CONCEPT_ID": 36529541,
+              "CONCEPT_NAME": "Liposarcoma, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8851/3-C49.5",
+              "CONCEPT_ID": 36532543,
+              "CONCEPT_NAME": "Liposarcoma, well differentiated, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8857/3-C48.0",
+              "CONCEPT_ID": 36540557,
+              "CONCEPT_NAME": "Fibroblastic liposarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8858/3-C49.5",
+              "CONCEPT_ID": 36547895,
+              "CONCEPT_NAME": "Dedifferentiated liposarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8855/3-C49.5",
+              "CONCEPT_ID": 36550930,
+              "CONCEPT_NAME": "Mixed liposarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8857/3-C49.5",
+              "CONCEPT_ID": 36565259,
+              "CONCEPT_NAME": "Fibroblastic liposarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "722515001",
+              "CONCEPT_ID": 36716490,
+              "CONCEPT_NAME": "Primary liposarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8855/3-C48.0",
+              "CONCEPT_ID": 44500609,
+              "CONCEPT_NAME": "Mixed liposarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8858/3-C48.0",
+              "CONCEPT_ID": 44501363,
+              "CONCEPT_NAME": "Dedifferentiated liposarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8850/3-C48.0",
+              "CONCEPT_ID": 44502347,
+              "CONCEPT_NAME": "Liposarcoma, NOS, of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8851/3-C48.0",
+              "CONCEPT_ID": 44502555,
+              "CONCEPT_NAME": "Liposarcoma, well differentiated, NOS, of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Blueberry study-a-thon 2 - Grade 2-3 - High grade",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Staging/Grading",
+              "CONCEPT_CODE": "Grade-2",
+              "CONCEPT_ID": 1634752,
+              "CONCEPT_NAME": "Grade 2 tumor",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "Cancer Modifier"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Histopattern",
+              "CONCEPT_CODE": "OMOP5000306",
+              "CONCEPT_ID": 36770626,
+              "CONCEPT_NAME": "Grade 2: Moderately differentiated",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "Cancer Modifier"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Staging/Grading",
+              "CONCEPT_CODE": "Grade-3",
+              "CONCEPT_ID": 1633749,
+              "CONCEPT_NAME": "Grade 3 tumor",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "Cancer Modifier"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Histopattern",
+              "CONCEPT_CODE": "OMOP4999343",
+              "CONCEPT_ID": 36769666,
+              "CONCEPT_NAME": "Grade 3: Poorly differentiated",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "Cancer Modifier"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Staging/Grading",
+              "CONCEPT_CODE": "Grade-H",
+              "CONCEPT_ID": 1635587,
+              "CONCEPT_NAME": "High grade tumor",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "Cancer Modifier"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Blueberry study-a-thon 2 - surgical procedure - NO BIOPSY",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Procedure",
+              "CONCEPT_CODE": "387713003",
+              "CONCEPT_ID": 4301351,
+              "CONCEPT_NAME": "Surgical procedure",
+              "DOMAIN_ID": "Procedure",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Procedure",
+              "CONCEPT_CODE": "86273004",
+              "CONCEPT_ID": 4311405,
+              "CONCEPT_NAME": "Biopsy",
+              "DOMAIN_ID": "Procedure",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "isExcluded": true,
+            "includeDescendants": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "Initial diagnosis",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Extension/Invasion",
+              "CONCEPT_CODE": "init_diag",
+              "CONCEPT_ID": 734306,
+              "CONCEPT_NAME": "Initial Diagnosis",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "Cancer Modifier"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {
+        "ProcedureOccurrence": {
+          "CodesetId": 11,
+          "OccurrenceStartDate": {
+            "Value": "2010-01-01",
+            "Extent": "2017-12-31",
+            "Op": "bt"
+          },
+          "First": true
+        }
+      }
+    ],
+    "ObservationWindow": {
+      "PriorDays": 0,
+      "PostDays": 0
+    },
+    "PrimaryCriteriaLimit": {
+      "Type": "First"
+    }
+  },
+  "QualifiedLimit": {
+    "Type": "First"
+  },
+  "ExpressionLimit": {
+    "Type": "First"
+  },
+  "InclusionRules": [
+    {
+      "name": "Sarcoma diagnosis without metastases at diagnosis and without previous other malignancies",
+      "expression": {
+        "Type": "ANY",
+        "CriteriaList": [
+          {
+            "Criteria": {
+              "ConditionOccurrence": {
+                "CorrelatedCriteria": {
+                  "Type": "ALL",
+                  "CriteriaList": [
+                    {
+                      "Criteria": {
+                        "Measurement": {
+                          "CodesetId": 10
+                        }
+                      },
+                      "StartWindow": {
+                        "Start": {
+                          "Coeff": -1
+                        },
+                        "End": {
+                          "Days": 90,
+                          "Coeff": 1
+                        },
+                        "UseEventEnd": false
+                      },
+                      "Occurrence": {
+                        "Type": 2,
+                        "Count": 1
+                      }
+                    }
+                  ],
+                  "DemographicCriteriaList": [],
+                  "Groups": [
+                    {
+                      "Type": "ANY",
+                      "CriteriaList": [
+                        {
+                          "Criteria": {
+                            "Measurement": {
+                              "CodesetId": 4
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 90,
+                              "Coeff": 1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 0,
+                            "Count": 0
+                          }
+                        },
+                        {
+                          "Criteria": {
+                            "Measurement": {
+                              "CodesetId": 5,
+                              "ValueAsConcept": [
+                                {
+                                  "CONCEPT_CODE": "759@1",
+                                  "CONCEPT_ID": 35940450,
+                                  "CONCEPT_NAME": "Localized",
+                                  "DOMAIN_ID": "Meas Value",
+                                  "INVALID_REASON_CAPTION": "Unknown",
+                                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                                  "VOCABULARY_ID": "NAACCR"
+                                }
+                              ]
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 90,
+                              "Coeff": 1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 2,
+                            "Count": 1
+                          }
+                        }
+                      ],
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    },
+                    {
+                      "Type": "ALL",
+                      "CriteriaList": [
+                        {
+                          "Criteria": {
+                            "ConditionOccurrence": {
+                              "CodesetId": 8
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 1,
+                              "Coeff": -1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 0,
+                            "Count": 0
+                          }
+                        },
+                        {
+                          "Criteria": {
+                            "Observation": {
+                              "CodesetId": 3,
+                              "ValueAsConcept": [
+                                {
+                                  "CONCEPT_CODE": "363346000",
+                                  "CONCEPT_ID": 443392,
+                                  "CONCEPT_NAME": "Malignant neoplastic disease",
+                                  "DOMAIN_ID": "Condition",
+                                  "INVALID_REASON_CAPTION": "Unknown",
+                                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                                  "VOCABULARY_ID": "SNOMED"
+                                }
+                              ]
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 1,
+                              "Coeff": -1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 0,
+                            "Count": 0
+                          }
+                        }
+                      ],
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    }
+                  ]
+                },
+                "CodesetId": 9,
+                "OccurrenceStartDate": {
+                  "Value": "2010-01-01",
+                  "Extent": "2017-12-31",
+                  "Op": "bt"
+                },
+                "ConditionStatus": [
+                  {
+                    "CONCEPT_CODE": "OMOP4976972",
+                    "CONCEPT_ID": 32902,
+                    "CONCEPT_NAME": "Primary diagnosis",
+                    "DOMAIN_ID": "Condition Status",
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "VOCABULARY_ID": "Condition Status"
+                  }
+                ]
+              }
+            },
+            "StartWindow": {
+              "Start": {
+                "Coeff": -1
+              },
+              "End": {
+                "Coeff": 1
+              },
+              "UseEventEnd": false
+            },
+            "Occurrence": {
+              "Type": 2,
+              "Count": 1
+            }
+          },
+          {
+            "Criteria": {
+              "ConditionOccurrence": {
+                "CorrelatedCriteria": {
+                  "Type": "ALL",
+                  "CriteriaList": [
+                    {
+                      "Criteria": {
+                        "Measurement": {
+                          "CodesetId": 10
+                        }
+                      },
+                      "StartWindow": {
+                        "Start": {
+                          "Coeff": -1
+                        },
+                        "End": {
+                          "Days": 90,
+                          "Coeff": 1
+                        },
+                        "UseEventEnd": false
+                      },
+                      "Occurrence": {
+                        "Type": 2,
+                        "Count": 1
+                      }
+                    },
+                    {
+                      "Criteria": {
+                        "Measurement": {
+                          "CodesetId": 12
+                        }
+                      },
+                      "StartWindow": {
+                        "Start": {
+                          "Days": 0,
+                          "Coeff": -1
+                        },
+                        "End": {
+                          "Days": 0,
+                          "Coeff": 1
+                        },
+                        "UseEventEnd": false
+                      },
+                      "Occurrence": {
+                        "Type": 2,
+                        "Count": 1
+                      }
+                    }
+                  ],
+                  "DemographicCriteriaList": [],
+                  "Groups": [
+                    {
+                      "Type": "ANY",
+                      "CriteriaList": [
+                        {
+                          "Criteria": {
+                            "Measurement": {
+                              "CodesetId": 4
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 90,
+                              "Coeff": 1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 0,
+                            "Count": 0
+                          }
+                        },
+                        {
+                          "Criteria": {
+                            "Measurement": {
+                              "CodesetId": 5,
+                              "ValueAsConcept": [
+                                {
+                                  "CONCEPT_CODE": "759@1",
+                                  "CONCEPT_ID": 35940450,
+                                  "CONCEPT_NAME": "Localized",
+                                  "DOMAIN_ID": "Meas Value",
+                                  "INVALID_REASON_CAPTION": "Unknown",
+                                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                                  "VOCABULARY_ID": "NAACCR"
+                                }
+                              ]
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 90,
+                              "Coeff": 1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 2,
+                            "Count": 1
+                          }
+                        }
+                      ],
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    },
+                    {
+                      "Type": "ALL",
+                      "CriteriaList": [
+                        {
+                          "Criteria": {
+                            "ConditionOccurrence": {
+                              "CodesetId": 8
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 1,
+                              "Coeff": -1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 0,
+                            "Count": 0
+                          }
+                        },
+                        {
+                          "Criteria": {
+                            "Observation": {
+                              "CodesetId": 3,
+                              "ValueAsConcept": [
+                                {
+                                  "CONCEPT_CODE": "363346000",
+                                  "CONCEPT_ID": 443392,
+                                  "CONCEPT_NAME": "Malignant neoplastic disease",
+                                  "DOMAIN_ID": "Condition",
+                                  "INVALID_REASON_CAPTION": "Unknown",
+                                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                                  "VOCABULARY_ID": "SNOMED"
+                                }
+                              ]
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 1,
+                              "Coeff": -1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 0,
+                            "Count": 0
+                          }
+                        }
+                      ],
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    }
+                  ]
+                },
+                "CodesetId": 9,
+                "OccurrenceStartDate": {
+                  "Value": "2010-01-01",
+                  "Extent": "2017-12-31",
+                  "Op": "bt"
+                }
+              }
+            },
+            "StartWindow": {
+              "Start": {
+                "Coeff": -1
+              },
+              "End": {
+                "Coeff": 1
+              },
+              "UseEventEnd": false
+            },
+            "Occurrence": {
+              "Type": 2,
+              "Count": 1
+            }
+          }
+        ],
+        "DemographicCriteriaList": [],
+        "Groups": []
+      }
+    },
+    {
+      "name": "Age >= 18",
+      "expression": {
+        "Type": "ALL",
+        "CriteriaList": [],
+        "DemographicCriteriaList": [
+          {
+            "Age": {
+              "Value": 18,
+              "Op": "gte"
+            }
+          }
+        ],
+        "Groups": []
+      }
+    }
+  ],
+  "CensoringCriteria": [],
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {},
+  "cdmVersionRange": ">=5.0.0"
+}

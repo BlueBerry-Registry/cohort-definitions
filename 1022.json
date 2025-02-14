@@ -1,0 +1,1857 @@
+{
+  "ConceptSets": [
+    {
+      "id": 3,
+      "name": "Blueberry study-a-thon 2 - History of",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Context-dependent",
+              "CONCEPT_CODE": "OMOP5165859",
+              "CONCEPT_ID": 1340204,
+              "CONCEPT_NAME": "History of event",
+              "DOMAIN_ID": "Observation",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "OMOP Extension"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Blueberry study-a-thon 2 - Metastases",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Metastasis",
+              "CONCEPT_CODE": "OMOP4998856",
+              "CONCEPT_ID": 36769180,
+              "CONCEPT_NAME": "Metastasis",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "Cancer Modifier"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Staging/Grading",
+              "CONCEPT_CODE": "AJCC/UICC-M1",
+              "CONCEPT_ID": 1635142,
+              "CONCEPT_NAME": "AJCC/UICC M1 Category",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "Cancer Modifier"
+            },
+            "includeDescendants": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Blueberry study-a-thon 2 - SEER summary stage",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "NAACCR Variable",
+              "CONCEPT_CODE": "759",
+              "CONCEPT_ID": 35918735,
+              "CONCEPT_NAME": "SEER Summary Stage 2000",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "NAACCR"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "other malignancies except BCC and PCC",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "363346000",
+              "CONCEPT_ID": 443392,
+              "CONCEPT_NAME": "Malignant neoplastic disease",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "254701007",
+              "CONCEPT_ID": 4112752,
+              "CONCEPT_NAME": "Basal cell carcinoma of skin",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "isExcluded": true,
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "254651007",
+              "CONCEPT_ID": 4111921,
+              "CONCEPT_NAME": "Squamous cell carcinoma of skin",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "isExcluded": true,
+            "includeDescendants": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Blueberry study-a-thon 2 - RPS - other sarcomas",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9133/3-C49.5",
+              "CONCEPT_ID": 36517688,
+              "CONCEPT_NAME": "Epithelioid hemangioendothelioma, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9140/3-C49.5",
+              "CONCEPT_ID": 36520993,
+              "CONCEPT_NAME": "Kaposi sarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8901/3-C48.0",
+              "CONCEPT_ID": 36521675,
+              "CONCEPT_NAME": "Pleomorphic rhabdomyosarcoma, adult type of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8813/3-C49.5",
+              "CONCEPT_ID": 36521767,
+              "CONCEPT_NAME": "Fascial fibrosarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8810/3-C49.5",
+              "CONCEPT_ID": 36522306,
+              "CONCEPT_NAME": "Fibrosarcoma, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9930/3-C49.5",
+              "CONCEPT_ID": 36522587,
+              "CONCEPT_NAME": "Myeloid sarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8912/3-C48.0",
+              "CONCEPT_ID": 36523615,
+              "CONCEPT_NAME": "Spindle cell rhabdomyosarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9252/3-C49.5",
+              "CONCEPT_ID": 36523729,
+              "CONCEPT_NAME": "Malignant tenosynovial giant cell tumor of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9240/3-C49.5",
+              "CONCEPT_ID": 36526673,
+              "CONCEPT_NAME": "Mesenchymal chondrosarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8991/3-C49.5",
+              "CONCEPT_ID": 36527934,
+              "CONCEPT_NAME": "Embryonal sarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9759/3-C48.0",
+              "CONCEPT_ID": 36528553,
+              "CONCEPT_NAME": "Fibroblastic reticular cell tumor of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9130/3-C48.0",
+              "CONCEPT_ID": 36529241,
+              "CONCEPT_NAME": "Hemangioendothelioma, malignant of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9758/3-C49.5",
+              "CONCEPT_ID": 36529898,
+              "CONCEPT_NAME": "Follicular dendritic cell sarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8810/3-C48.0",
+              "CONCEPT_ID": 36529914,
+              "CONCEPT_NAME": "Fibrosarcoma, NOS, of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9930/3-C48.0",
+              "CONCEPT_ID": 36530213,
+              "CONCEPT_NAME": "Myeloid sarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8811/3-C49.5",
+              "CONCEPT_ID": 36530702,
+              "CONCEPT_NAME": "Myxofibrosarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9041/3-C49.5",
+              "CONCEPT_ID": 36532061,
+              "CONCEPT_NAME": "Synovial sarcoma, spindle cell of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9740/3-C49.5",
+              "CONCEPT_ID": 36533385,
+              "CONCEPT_NAME": "Mast cell sarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8921/3-C48.0",
+              "CONCEPT_ID": 36534511,
+              "CONCEPT_NAME": "Ectomesenchymoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9503/3-C49.5",
+              "CONCEPT_ID": 36534836,
+              "CONCEPT_NAME": "Neuroepithelioma, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9758/3-C48.0",
+              "CONCEPT_ID": 36535692,
+              "CONCEPT_NAME": "Follicular dendritic cell sarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9581/3-C49.5",
+              "CONCEPT_ID": 36536209,
+              "CONCEPT_NAME": "Alveolar soft part sarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9120/3-C49.5",
+              "CONCEPT_ID": 36536483,
+              "CONCEPT_NAME": "Hemangiosarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8814/3-C49.5",
+              "CONCEPT_ID": 36538083,
+              "CONCEPT_NAME": "Infantile fibrosarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9043/3-C49.5",
+              "CONCEPT_ID": 36539258,
+              "CONCEPT_NAME": "Synovial sarcoma, biphasic of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8840/3-C49.5",
+              "CONCEPT_ID": 36539942,
+              "CONCEPT_NAME": "Myxosarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8933/3-C49.5",
+              "CONCEPT_ID": 36540600,
+              "CONCEPT_NAME": "Adenosarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9755/3-C48.0",
+              "CONCEPT_ID": 36542848,
+              "CONCEPT_NAME": "Histiocytic sarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8832/3-C49.5",
+              "CONCEPT_ID": 36543361,
+              "CONCEPT_NAME": "Dermatofibrosarcoma protuberans, fibrosarcomatous of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9756/3-C49.5",
+              "CONCEPT_ID": 36543793,
+              "CONCEPT_NAME": "Langerhans cell sarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8813/3-C48.0",
+              "CONCEPT_ID": 36544017,
+              "CONCEPT_NAME": "Fascial fibrosarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9042/3-C49.5",
+              "CONCEPT_ID": 36544331,
+              "CONCEPT_NAME": "Synovial sarcoma, epithelioid cell of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8900/3-C49.5",
+              "CONCEPT_ID": 36544801,
+              "CONCEPT_NAME": "Rhabdomyosarcoma, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8991/3-C48.0",
+              "CONCEPT_ID": 36545011,
+              "CONCEPT_NAME": "Embryonal sarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8990/3-C49.5",
+              "CONCEPT_ID": 36545492,
+              "CONCEPT_NAME": "Mesenchymoma, malignant of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9580/3-C49.5",
+              "CONCEPT_ID": 36548018,
+              "CONCEPT_NAME": "Granular cell tumor, malignant of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8921/3-C49.5",
+              "CONCEPT_ID": 36548485,
+              "CONCEPT_NAME": "Ectomesenchymoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8990/3-C48.0",
+              "CONCEPT_ID": 36550322,
+              "CONCEPT_NAME": "Mesenchymoma, malignant of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8854/3-C49.5",
+              "CONCEPT_ID": 36553275,
+              "CONCEPT_NAME": "Pleomorphic liposarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9365/3-C49.5",
+              "CONCEPT_ID": 36553366,
+              "CONCEPT_NAME": "Askin tumor of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8852/3-C49.5",
+              "CONCEPT_ID": 36554396,
+              "CONCEPT_NAME": "Myxoid liposarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9503/3-C48.0",
+              "CONCEPT_ID": 36555105,
+              "CONCEPT_NAME": "Neuroepithelioma, NOS, of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9170/3-C49.5",
+              "CONCEPT_ID": 36555344,
+              "CONCEPT_NAME": "Lymphangiosarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9130/3-C49.5",
+              "CONCEPT_ID": 36556092,
+              "CONCEPT_NAME": "Hemangioendothelioma, malignant of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9133/3-C48.0",
+              "CONCEPT_ID": 36556544,
+              "CONCEPT_NAME": "Epithelioid hemangioendothelioma, NOS, of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9756/3-C48.0",
+              "CONCEPT_ID": 36557446,
+              "CONCEPT_NAME": "Langerhans cell sarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8901/3-C49.5",
+              "CONCEPT_ID": 36557554,
+              "CONCEPT_NAME": "Pleomorphic rhabdomyosarcoma, adult type of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8803/3-C48.0",
+              "CONCEPT_ID": 36559526,
+              "CONCEPT_NAME": "Small cell sarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8963/3-C49.5",
+              "CONCEPT_ID": 36559764,
+              "CONCEPT_NAME": "Rhabdoid tumor, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8912/3-C49.5",
+              "CONCEPT_ID": 36560560,
+              "CONCEPT_NAME": "Spindle cell rhabdomyosarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9044/3-C49.5",
+              "CONCEPT_ID": 36560902,
+              "CONCEPT_NAME": "Clear cell sarcoma, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8711/3-C49.5",
+              "CONCEPT_ID": 36561436,
+              "CONCEPT_NAME": "Glomus tumor, malignant of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9740/3-C48.0",
+              "CONCEPT_ID": 36561836,
+              "CONCEPT_NAME": "Mast cell sarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8803/3-C49.5",
+              "CONCEPT_ID": 36561934,
+              "CONCEPT_NAME": "Small cell sarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9040/3-C49.5",
+              "CONCEPT_ID": 36562510,
+              "CONCEPT_NAME": "Synovial sarcoma, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8693/3-C49.5",
+              "CONCEPT_ID": 36562642,
+              "CONCEPT_NAME": "Extra-adrenal paraganglioma, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9755/3-C49.5",
+              "CONCEPT_ID": 36562881,
+              "CONCEPT_NAME": "Histiocytic sarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9180/3-C49.5",
+              "CONCEPT_ID": 36563318,
+              "CONCEPT_NAME": "Osteosarcoma, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9231/3-C49.5",
+              "CONCEPT_ID": 36563461,
+              "CONCEPT_NAME": "Myxoid chondrosarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8900/3-C48.0",
+              "CONCEPT_ID": 36563534,
+              "CONCEPT_NAME": "Rhabdomyosarcoma, NOS, of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9759/3-C49.5",
+              "CONCEPT_ID": 36565276,
+              "CONCEPT_NAME": "Fibroblastic reticular cell tumor of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8804/3-C49.5",
+              "CONCEPT_ID": 36566540,
+              "CONCEPT_NAME": "Epithelioid sarcoma, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8814/3-C48.0",
+              "CONCEPT_ID": 36567178,
+              "CONCEPT_NAME": "Infantile fibrosarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8825/3-C49.5",
+              "CONCEPT_ID": 42511689,
+              "CONCEPT_NAME": "Myofibroblastic sarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9040/3-C48.0",
+              "CONCEPT_ID": 42512026,
+              "CONCEPT_NAME": "Synovial sarcoma, NOS, of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8842/3-C49.5",
+              "CONCEPT_ID": 42512136,
+              "CONCEPT_NAME": "Ossifying fibromyxoid tumor, malignant of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8714/3-C48.0",
+              "CONCEPT_ID": 42512235,
+              "CONCEPT_NAME": "Perivascular epithelioid tumor, malignant of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8825/3-C48.0",
+              "CONCEPT_ID": 42512243,
+              "CONCEPT_NAME": "Myofibroblastic sarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8936/3-C49.5",
+              "CONCEPT_ID": 42512454,
+              "CONCEPT_NAME": "Gastrointestinal stromal tumor of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9137/3-C49.5",
+              "CONCEPT_ID": 42512487,
+              "CONCEPT_NAME": "Intimal sarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9581/3-C48.0",
+              "CONCEPT_ID": 42512587,
+              "CONCEPT_NAME": "Alveolar soft part sarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8931/3-C49.5",
+              "CONCEPT_ID": 42512696,
+              "CONCEPT_NAME": "Endometrial stromal sarcoma, low grade of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8982/3-C49.5",
+              "CONCEPT_ID": 42512826,
+              "CONCEPT_NAME": "Myoepithelial carcinoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8980/3-C49.5",
+              "CONCEPT_ID": 42512845,
+              "CONCEPT_NAME": "Carcinosarcoma, NOS, of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9240/3-C48.0",
+              "CONCEPT_ID": 42512942,
+              "CONCEPT_NAME": "Mesenchymal chondrosarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8804/3-C48.0",
+              "CONCEPT_ID": 44499454,
+              "CONCEPT_NAME": "Epithelioid sarcoma, NOS, of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9180/3-C48.0",
+              "CONCEPT_ID": 44500553,
+              "CONCEPT_NAME": "Osteosarcoma, NOS, of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8693/3-C48.0",
+              "CONCEPT_ID": 44500656,
+              "CONCEPT_NAME": "Extra-adrenal paraganglioma, NOS, of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8840/3-C48.0",
+              "CONCEPT_ID": 44500745,
+              "CONCEPT_NAME": "Myxosarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9231/3-C48.0",
+              "CONCEPT_ID": 44500820,
+              "CONCEPT_NAME": "Myxoid chondrosarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8811/3-C48.0",
+              "CONCEPT_ID": 44501225,
+              "CONCEPT_NAME": "Myxofibrosarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8935/3-C48.0",
+              "CONCEPT_ID": 44501367,
+              "CONCEPT_NAME": "Stromal sarcoma, NOS, of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8936/3-C48.0",
+              "CONCEPT_ID": 44501368,
+              "CONCEPT_NAME": "Gastrointestinal stromal tumor of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9041/3-C48.0",
+              "CONCEPT_ID": 44502560,
+              "CONCEPT_NAME": "Synovial sarcoma, spindle cell of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "9120/3-C48.0",
+              "CONCEPT_ID": 44502563,
+              "CONCEPT_NAME": "Hemangiosarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8852/3-C48.0",
+              "CONCEPT_ID": 44501226,
+              "CONCEPT_NAME": "Myxoid liposarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8854/3-C48.0",
+              "CONCEPT_ID": 36555193,
+              "CONCEPT_NAME": "Pleomorphic liposarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8853/3-C49.5",
+              "CONCEPT_ID": 36528528,
+              "CONCEPT_NAME": "Round cell liposarcoma of connective, Subcutaneous and other soft tissues of pelvis",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "ICDO Condition",
+              "CONCEPT_CODE": "8853/3-C48.0",
+              "CONCEPT_ID": 36553716,
+              "CONCEPT_NAME": "Round cell liposarcoma of retroperitoneum",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "ICDO3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Blueberry study-a-thon 2 - surgical procedure - NO BIOPSY",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Procedure",
+              "CONCEPT_CODE": "387713003",
+              "CONCEPT_ID": 4301351,
+              "CONCEPT_NAME": "Surgical procedure",
+              "DOMAIN_ID": "Procedure",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Procedure",
+              "CONCEPT_CODE": "86273004",
+              "CONCEPT_ID": 4311405,
+              "CONCEPT_NAME": "Biopsy",
+              "DOMAIN_ID": "Procedure",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "isExcluded": true,
+            "includeDescendants": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Initial diagnosis",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Extension/Invasion",
+              "CONCEPT_CODE": "init_diag",
+              "CONCEPT_ID": 734306,
+              "CONCEPT_NAME": "Initial Diagnosis",
+              "DOMAIN_ID": "Measurement",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "Cancer Modifier"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {
+        "ProcedureOccurrence": {
+          "CodesetId": 10,
+          "OccurrenceStartDate": {
+            "Value": "2010-01-01",
+            "Extent": "2017-12-31",
+            "Op": "bt"
+          },
+          "First": true
+        }
+      }
+    ],
+    "ObservationWindow": {
+      "PriorDays": 0,
+      "PostDays": 0
+    },
+    "PrimaryCriteriaLimit": {
+      "Type": "First"
+    }
+  },
+  "QualifiedLimit": {
+    "Type": "First"
+  },
+  "ExpressionLimit": {
+    "Type": "First"
+  },
+  "InclusionRules": [
+    {
+      "name": "Sarcoma diagnosis without metastases at diagnosis and without previous other malignancies",
+      "expression": {
+        "Type": "ANY",
+        "CriteriaList": [
+          {
+            "Criteria": {
+              "ConditionOccurrence": {
+                "CorrelatedCriteria": {
+                  "Type": "ALL",
+                  "CriteriaList": [],
+                  "DemographicCriteriaList": [],
+                  "Groups": [
+                    {
+                      "Type": "ANY",
+                      "CriteriaList": [
+                        {
+                          "Criteria": {
+                            "Measurement": {
+                              "CodesetId": 4
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 90,
+                              "Coeff": 1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 0,
+                            "Count": 0
+                          }
+                        },
+                        {
+                          "Criteria": {
+                            "Measurement": {
+                              "CodesetId": 5,
+                              "ValueAsConcept": [
+                                {
+                                  "CONCEPT_CODE": "759@1",
+                                  "CONCEPT_ID": 35940450,
+                                  "CONCEPT_NAME": "Localized",
+                                  "DOMAIN_ID": "Meas Value",
+                                  "INVALID_REASON_CAPTION": "Unknown",
+                                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                                  "VOCABULARY_ID": "NAACCR"
+                                }
+                              ]
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 90,
+                              "Coeff": 1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 2,
+                            "Count": 1
+                          }
+                        }
+                      ],
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    },
+                    {
+                      "Type": "ALL",
+                      "CriteriaList": [
+                        {
+                          "Criteria": {
+                            "ConditionOccurrence": {
+                              "CodesetId": 8
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 1,
+                              "Coeff": -1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 0,
+                            "Count": 0
+                          }
+                        },
+                        {
+                          "Criteria": {
+                            "Observation": {
+                              "CodesetId": 3,
+                              "ValueAsConcept": [
+                                {
+                                  "CONCEPT_CODE": "363346000",
+                                  "CONCEPT_ID": 443392,
+                                  "CONCEPT_NAME": "Malignant neoplastic disease",
+                                  "DOMAIN_ID": "Condition",
+                                  "INVALID_REASON_CAPTION": "Unknown",
+                                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                                  "VOCABULARY_ID": "SNOMED"
+                                }
+                              ]
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 1,
+                              "Coeff": -1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 0,
+                            "Count": 0
+                          }
+                        }
+                      ],
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    }
+                  ]
+                },
+                "CodesetId": 9,
+                "OccurrenceStartDate": {
+                  "Value": "2010-01-01",
+                  "Extent": "2017-12-31",
+                  "Op": "bt"
+                },
+                "ConditionStatus": [
+                  {
+                    "CONCEPT_CODE": "OMOP4976972",
+                    "CONCEPT_ID": 32902,
+                    "CONCEPT_NAME": "Primary diagnosis",
+                    "DOMAIN_ID": "Condition Status",
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "VOCABULARY_ID": "Condition Status"
+                  }
+                ]
+              }
+            },
+            "StartWindow": {
+              "Start": {
+                "Coeff": -1
+              },
+              "End": {
+                "Coeff": 1
+              },
+              "UseEventEnd": false
+            },
+            "Occurrence": {
+              "Type": 2,
+              "Count": 1
+            }
+          },
+          {
+            "Criteria": {
+              "ConditionOccurrence": {
+                "CorrelatedCriteria": {
+                  "Type": "ALL",
+                  "CriteriaList": [
+                    {
+                      "Criteria": {
+                        "Measurement": {
+                          "CodesetId": 11
+                        }
+                      },
+                      "StartWindow": {
+                        "Start": {
+                          "Days": 0,
+                          "Coeff": -1
+                        },
+                        "End": {
+                          "Days": 0,
+                          "Coeff": 1
+                        },
+                        "UseEventEnd": false
+                      },
+                      "Occurrence": {
+                        "Type": 2,
+                        "Count": 1
+                      }
+                    }
+                  ],
+                  "DemographicCriteriaList": [],
+                  "Groups": [
+                    {
+                      "Type": "ANY",
+                      "CriteriaList": [
+                        {
+                          "Criteria": {
+                            "Measurement": {
+                              "CodesetId": 4
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 90,
+                              "Coeff": 1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 0,
+                            "Count": 0
+                          }
+                        },
+                        {
+                          "Criteria": {
+                            "Measurement": {
+                              "CodesetId": 5,
+                              "ValueAsConcept": [
+                                {
+                                  "CONCEPT_CODE": "759@1",
+                                  "CONCEPT_ID": 35940450,
+                                  "CONCEPT_NAME": "Localized",
+                                  "DOMAIN_ID": "Meas Value",
+                                  "INVALID_REASON_CAPTION": "Unknown",
+                                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                                  "VOCABULARY_ID": "NAACCR"
+                                }
+                              ]
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 90,
+                              "Coeff": 1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 2,
+                            "Count": 1
+                          }
+                        }
+                      ],
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    },
+                    {
+                      "Type": "ALL",
+                      "CriteriaList": [
+                        {
+                          "Criteria": {
+                            "ConditionOccurrence": {
+                              "CodesetId": 8
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 1,
+                              "Coeff": -1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 0,
+                            "Count": 0
+                          }
+                        },
+                        {
+                          "Criteria": {
+                            "Observation": {
+                              "CodesetId": 3,
+                              "ValueAsConcept": [
+                                {
+                                  "CONCEPT_CODE": "363346000",
+                                  "CONCEPT_ID": 443392,
+                                  "CONCEPT_NAME": "Malignant neoplastic disease",
+                                  "DOMAIN_ID": "Condition",
+                                  "INVALID_REASON_CAPTION": "Unknown",
+                                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                                  "VOCABULARY_ID": "SNOMED"
+                                }
+                              ]
+                            }
+                          },
+                          "StartWindow": {
+                            "Start": {
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 1,
+                              "Coeff": -1
+                            },
+                            "UseEventEnd": false
+                          },
+                          "Occurrence": {
+                            "Type": 0,
+                            "Count": 0
+                          }
+                        }
+                      ],
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    }
+                  ]
+                },
+                "CodesetId": 9,
+                "OccurrenceStartDate": {
+                  "Value": "2010-01-01",
+                  "Extent": "2017-12-31",
+                  "Op": "bt"
+                }
+              }
+            },
+            "StartWindow": {
+              "Start": {
+                "Coeff": -1
+              },
+              "End": {
+                "Coeff": 1
+              },
+              "UseEventEnd": false
+            },
+            "Occurrence": {
+              "Type": 2,
+              "Count": 1
+            }
+          }
+        ],
+        "DemographicCriteriaList": [],
+        "Groups": []
+      }
+    },
+    {
+      "name": "Age >= 18",
+      "expression": {
+        "Type": "ALL",
+        "CriteriaList": [],
+        "DemographicCriteriaList": [
+          {
+            "Age": {
+              "Value": 18,
+              "Op": "gte"
+            }
+          }
+        ],
+        "Groups": []
+      }
+    }
+  ],
+  "CensoringCriteria": [],
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {},
+  "cdmVersionRange": ">=5.0.0"
+}
